@@ -1,0 +1,31 @@
+#contenido{
+ width: 80%;
+ margin: auto; 
+ background-color: white; 
+ margin-top: 0px !important;
+ padding: 50px;
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+body{
+    background-color:#9753536b;
+}
+#tituloarticulo{
+    text-align: center;
+}
+#imgtema1{
+    width: 50%;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 6 / 2; }
+    .div3 { grid-area: 2 / 2 / 6 / 6; }
